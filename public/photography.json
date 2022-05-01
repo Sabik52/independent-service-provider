@@ -1,0 +1,58 @@
+[
+    {
+      "id": "626d595143e21b1ee235f768",
+      "name": "Traditional",
+      "img": "https://i.ibb.co/DYcsjS9/image1.jpg",
+      "price": "$100",
+      "description": " Traditional Wedding Photography involves taking pictures of the participants of the wedding by setting up poses or by taking simple images of the events. Like you to sit in a particular place, stand against a specific backdrop or pose in group pictures."
+    },
+    {
+      "id": "626d59514fa31bffd8146c15",
+      "name": "Photojournalistic",
+      "img": "https://i.ibb.co/25zXW8p/image2.jpg",
+      "price": "$120",
+      "description": "Photojournalistic wedding photography is an unposed and undirected visual narrative of your wedding day. True wedding photojournalists have an unobtrusive presence that allows them to capture unstaged moments without interfering in their creation."
+    },
+    {
+      "id": "626d5951af7033feba58310a",
+      "name": "Editorial",
+      "img": "https://i.ibb.co/qmnjP7Z/image3.jpg",
+      "price": "$150",
+      "description": "In the end, editorial wedding photography is about the drama, the fashion, and the beauty you create through your lens. It's about enhancing the setting you are in and making your models look like they belong in a magazine."
+    },
+    {
+      "id": "626d59518fbbe96fa6c794bd",
+      "name": "Dark and moody",
+      "img": "https://i.ibb.co/Sd2mwPj/image4.jpg",
+      "price": "$200",
+      "description": "Dark and Moody Wedding Photography is one of the four major styles of wedding photography. The Dark and Moody style can be applied to photography in all types of scenes; however, it’s most often used in scenes commonly categorized as adventure. "
+    },
+    {
+      "id": "626d59518e12256e97524abc",
+      "name": "Vintage",
+      "img": "https://i.ibb.co/xjZ8xS9/image5.jpg",
+      "price": "$220",
+      "description": "Good old times! We heard our grandparents often refer to the good old days while they fondly reminisce about their past. While they are nostalgic about their past, we also feel the enchanting power of that time and wish we could turn back the clock."
+    },
+    {
+      "id": "626d595193fa3557beb4c93a",
+      "name": "Aerial",
+      "img": "https://i.ibb.co/cXb5WmS/image6.jpg",
+      "price": "$250",
+      "description": "Aerial photography or film of your wedding gives a new and exciting perspective to your wedding photo album, we can deliver beautiful intimate shots of the bride & groom and to showcase the wedding venue at its best"
+    },
+    {
+      "id": "626d59513afc44ba845a6742",
+      "name": "Fine art",
+      "img": "https://i.ibb.co/W5tQTYX/image7.jpg",
+      "price": "$270",
+      "description": "Fine art wedding photography is typically defined as soft, natural images the beauty of the subject. Shallow depth of field, pastel colours and ethereal beauty are also often associated with it. I take natural photographs that show each couples uniqueness"
+    },
+    {
+      "id": "626d595127470df078f14358",
+      "name": "Black and white",
+      "img": "https://i.ibb.co/qkj1QwN/image8.jpg",
+      "price": "$280",
+      "description": " Monochrome photography focuses on the difference between light and the dark.A black and white edit often works well on images with a lot of contrast. Shots with harsh lighting that was unavoidable while shooting often look better in black and white."
+    }
+  ]
