@@ -1,0 +1,17 @@
+.social-btn{
+    background-color: rgb(10, 103, 190);
+    color: white;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.social-btn:hover{
+    background-color: rgba(11, 137, 255, 0.897);
+}
+.social-btn img{
+    height: 30px;
+    width: 50px;
+}

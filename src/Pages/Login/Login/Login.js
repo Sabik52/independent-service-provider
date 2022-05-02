@@ -1,14 +1,18 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../Firebase.init';
+import Sociallogin from '../SocialLogin/Sociallogin';
 import './Login.css'
 
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
+    const location = useLocation();
+
+    let from =location.state?.from?.pathname || "/";
 
     const [
         signInWithEmailAndPassword,
@@ -19,7 +23,7 @@ const Login = () => {
 
 
       if(user){
-          navigate('/home')
+          navigate(from, {replace: true});
       }
 
     const handleSubmit = event => {
@@ -50,9 +54,10 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-              <Button type= "submit">Submit</Button>
+              <button className='login-btn' type="submit">Login</button>
             </Form>
-            <p>Don't Have a Account ? <Link to="/signup" className='text-danger text-decoration-none' onClick={navigateSignUp}>Please Sign Up</Link></p>
+            <p>Don't Have an Account ? <Link to="/signup" className='text-danger text-decoration-none' onClick={navigateSignUp}>Please Sign Up</Link></p>
+            <Sociallogin></Sociallogin>
         </div>
     );
 };

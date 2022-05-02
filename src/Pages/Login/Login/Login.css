@@ -6,11 +6,17 @@
     padding-bottom: 5px;
    
 }
-.btn{
+.login-btn{
     background-color: rgb(10, 103, 190);
     color: white;
     padding: 10px 30px;
     border: none;
     border-radius: 10px;
     margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+.login-btn:hover{
+    background-color: rgba(11, 137, 255, 0.897);
 }
