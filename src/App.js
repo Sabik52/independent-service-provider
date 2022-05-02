@@ -4,6 +4,7 @@ import './App.css';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
+import SignUp from './Pages/Login/SignUp/SignUp';
 
 
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/service/:serviceId' element= {<ServiceDetails></ServiceDetails>}></Route>
         <Route path='/about' element= {<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='*' element= {<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

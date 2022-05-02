@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, useNavigate } from 'react-router-dom';
+import auth from '../../../Firebase.init';
 import './Login.css'
 
 const Login = () => {
@@ -8,13 +10,23 @@ const Login = () => {
     const passwordRef = useRef('');
     const navigate = useNavigate();
 
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useSignInWithEmailAndPassword(auth);
+
+
+      if(user){
+          navigate('/home')
+      }
 
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-
-        console.log(email, password)
+        signInWithEmailAndPassword(email, password);
     }
     const navigateSignUp = event => {
             navigate('/signup')
@@ -40,7 +52,7 @@ const Login = () => {
                 </Form.Group>
               <Button type= "submit">Submit</Button>
             </Form>
-            <p>Don't Have a Account ? <span className='text-danger' onClick={navigateSignUp}>Please Sign Up</span></p>
+            <p>Don't Have a Account ? <Link to="/signup" className='text-danger text-decoration-none' onClick={navigateSignUp}>Please Sign Up</Link></p>
         </div>
     );
 };
