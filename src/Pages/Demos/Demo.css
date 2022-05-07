@@ -1,0 +1,22 @@
+.demo-image{
+        border-radius: 10px;
+        margin-top: 5px;
+        color: rgb(247, 244, 222);
+        background-color:rgb(10, 34, 10) ;
+       
+        text-align: center;
+        transition: 1s;
+       
+}
+.demo-image img{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid wheat;
+}
+.demo-image img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}

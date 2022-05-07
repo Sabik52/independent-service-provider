@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from 'react';
+
+import useService from '../../../hooks/useService';
 import Service from '../Service/Service';
 import './Services.css'
 
 const Services = () => {
-    const [services, setServices] = useState([]);
-
-    useEffect(() => {
-        fetch('photography.json')
-        .then(res => res.json())
-        .then(data => setServices(data) )
-    },[])
-
+    const [services, setServices] = useService()
     return (
         <div id= "services" className='cotainer'>
            <div className="row mx-2  ">
