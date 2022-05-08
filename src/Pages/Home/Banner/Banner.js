@@ -17,8 +17,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3></h3>
-                        <p></p>
+                    <h3>Unique Capture</h3>
+                        <p>Capture with Uncommon Pose</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -28,8 +28,8 @@ const Banner = () => {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Wedding</h3>
-                        <p>Keep the name short and memorable..</p>
+                        <h3>Nature Capture</h3>
+                        <p>Capture the natural Beauty</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>High Quality Camera</h3>
+                        <p>We Capture you High proffetional Camera.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
