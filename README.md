@@ -15,7 +15,7 @@ Flash Bright
 5. Google and facebook authentication system
 6. Mobile , tablet and desktop responsive 
 
-## Framework and Library used in thi project
+## Framework and Library used in this project
 
 1. React Hooks
 2. Raact Router
