@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-## Website Name:
-Flash Bright
+## Website Name: Flash Bright
+
 
 ## Live Link 
 ( https://flash-bright-3df3c.web.app)

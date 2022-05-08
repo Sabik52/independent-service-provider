@@ -1,0 +1,13 @@
+[debug] [2022-05-08T18:10:37.033Z] ----------------------------------------------------------------------
+[debug] [2022-05-08T18:10:37.039Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sabik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-08T18:10:37.040Z] CLI Version:   10.8.0
+[debug] [2022-05-08T18:10:37.041Z] Platform:      win32
+[debug] [2022-05-08T18:10:37.042Z] Node Version:  v16.14.2
+[debug] [2022-05-08T18:10:37.134Z] Time:          Mon May 09 2022 00:10:37 GMT+0600 (East Kazakhstan Time)
+[debug] [2022-05-08T18:10:37.135Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-08T18:10:37.362Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-08T18:10:37.363Z] > authorizing via signed-in user (rahman52neajur@gmail.com)
+[debug] [2022-05-08T18:10:37.364Z] [iam] checking project flash-bright-3df3c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-08T18:10:37.368Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/flash-bright-3df3c:testIamPermissions [none]
+[debug] [2022-05-08T18:10:37.368Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/flash-bright-3df3c:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
