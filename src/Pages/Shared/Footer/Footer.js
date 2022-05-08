@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='col-12 col-lg-10 mx-auto'>
                         <div className='row'>
                             <div className='col-6 col-lg-3'>
-                                <h2>Contact</h2>
+                                <h4>Contact</h4>
                                 <ul>
                                     <li>
                                        <a href="">About</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className='col-6 col-lg-3'>
-                                <h2>Support</h2>
+                                <h4>Support</h4>
                                 <ul>
                                     <li>
                                        <a href="">Refund Policy</a>
@@ -48,7 +48,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className='col-6 col-lg-3'>
-                                <h2>Services</h2>
+                                <h4>Services</h4>
                                 <ul>
                                     <li>
                                        <a href="">VideoGraphy</a>
@@ -65,7 +65,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className='col-6 col-lg-3'>
-                                <h2>Follow Us</h2>
+                                <h4>Follow Us</h4>
                                <div className='row'>
                                    <div className='col-3 mx-auto'>
                                    <a  href="https://web.facebook.com/sabik.neajurrahman/" target="_blank"><i class="fa-brands fa-facebook"></i></a>

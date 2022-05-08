@@ -1,6 +1,30 @@
 # Getting Started with Create React App
 
-Website Name: Flash Bright
+## Website Name:
+Flash Bright
+
+## Live Link 
+( https://flash-bright-3df3c.web.app)
+
+## Features in My Website
+
+1. Login and Signout 
+2. Private Route 
+3. Checkout Sytem
+4. In footer social Icon user can go direct my profile
+5. Google and facebook authentication system
+6. Mobile , tablet and desktop responsive 
+
+## Framework and Library used in thi project
+
+1. React Hooks
+2. Raact Router
+3. React Boostrap
+4. Boostratp
+5. Vanila CSS 
+6. React Firebase Hooks
+7. Firebase Authentication
+8. FontAwsome
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
