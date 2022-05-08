@@ -25,7 +25,7 @@ const Sociallogin = () => {
 
     }
     return (
-        <div>
+        <div className=''>
             <div className='d-flex align-items-center'>
             <div style={{height:'1px'}} className='bg-white w-50'></div>
             <p className='mt-3 px-2'>Or</p>

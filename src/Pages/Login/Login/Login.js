@@ -39,7 +39,7 @@ const Login = () => {
         <div className='container w-50 mx-auto'>
             <h2 className='text-center py-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3 " controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control ref= {emailRef} type="email" placeholder="Enter email" required />
                     <Form.Text className="text-muted">

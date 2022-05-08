@@ -1,0 +1,18 @@
+.about-container{
+    color: #fff;
+    text-align: center;
+    justify-items: center;
+   
+}
+.about-details{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about-text{
+    text-align: justify;
+    margin-left: 10px;
+    
+}

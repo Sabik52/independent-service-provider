@@ -1,9 +1,9 @@
 .demo-image{
         border-radius: 10px;
-        margin-top: 5px;
+      
         color: rgb(247, 244, 222);
-        background-color:rgb(10, 34, 10) ;
-       
+        background-color: #151320;
+       padding-bottom: 50px;
         text-align: center;
         transition: 1s;
        

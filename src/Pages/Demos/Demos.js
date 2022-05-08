@@ -10,7 +10,7 @@ import './Demo.css'
 const Demos = () => {
     return (
         <div className='demo-image'>
-            <h1>My Projects</h1>
+            <h1 className='mb-5'>My Projects</h1>
             <img className='fade-in-up' src={image1} alt="" />
             <img src={image2} alt="" />
             <img src={image3} alt="" />

@@ -1,13 +1,18 @@
-.row{
-    background-color:rgb(10, 34, 10) ;
+.service-text{
+    background-color: #151320;
     color: rgb(247, 244, 222);
     
    
 }
 .services-container{
+    margin: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; 
+    grid-gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly
+
 
 }
 @media only screen and (max-width: 576px) {

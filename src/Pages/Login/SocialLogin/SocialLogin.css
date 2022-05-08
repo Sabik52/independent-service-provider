@@ -2,10 +2,11 @@
     background-color: rgb(10, 103, 190);
     color: white;
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 14px;
     border: none;
     border-radius: 10px;
+    margin-top: 10px;
     
 }
 .social-btn:hover{

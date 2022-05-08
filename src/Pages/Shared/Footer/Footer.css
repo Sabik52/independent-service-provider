@@ -1,0 +1,25 @@
+.footer-section{
+    padding: 5rm 0;
+    background-color: #182334;
+    color: #fff;
+    
+
+}
+
+ li{
+    list-style: none;
+ 
+}
+li a{
+    font-size: 1.5rm;
+    font-weight: lighter;
+    color: #fff;
+    cursor: pointer;
+    margin: 1rm 0;
+    text-decoration: none;
+   
+}
+a i {
+    font-size: 30px;
+    color: #fff;
+}
